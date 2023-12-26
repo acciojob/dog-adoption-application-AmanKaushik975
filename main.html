@@ -11,23 +11,35 @@
     <script type="text/javascript" src="./script.js">
 </script>
 	<form>
-    <labe for="name">Name</labe><br>
-    <input type="text" id="name" placeholder="Name"><br>
-    <label for="phone">Phone</label><br>
-    <input type="text" id="phone" placeholder="Phone Number"><br>
+		<div>
+	Name:<input type="text" placeholder="Name" id="name">
+	</div>
+	<br>
+	<div>
+	Phone number:<input type="text" placeholder="PhoneNumber" id="phone">
+</div>
+<br>
+<div>
+	Address: <input type="text" placeholder="Address" id="address"><br/>
+</div>
+<br>
+<div>
+	Have you ever lived with a dog before?<input type="checkbox" value="Have you ever lived with a dog before?" id="checkbox"></input>
+	
+	</div>
+    <br>
+    <div>
+		<label for="Dogs">Please select your preferred breeds:</label>
+	<select name="Dogs" id="multiselect">
+		<option value="Dogs">BassetHound</option>
+		<option value="Dogs"> Golden Retriever </option>
+		<option value="Dogs">polan</option>
+       </select>
+	   </div>
+	   <br>
+	   <input type="submit" value="submit" id="submit">
 
-    <label for="address">Address</label><br>
-    <input type="text" id="address" placeholder="Address"><br>
-    <label for="radio">Have you ever lived with a Dog before?</label><br>
-    <input type="radio" name="Have you ever lived with a Dog before?" value="no">No<br>
-    <input type="radio" name="Have you ever lived with a Dog before?" value="yes">Yes<br>
-    <label for="breed">Please select your preferred breeds</label><br>
-    <input type="checkbox" name="b1" value="rootwiler">Rotwiler<br>
-    <input type="checkbox" name="b2" value="labradorg">labra<br>
-    <input type="checkbox" name="b3" value="german">german<br>
-    <input type="submit">
-
-   </form>
+	</form>
 
 </body>
 
